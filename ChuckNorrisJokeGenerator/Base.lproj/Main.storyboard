@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5tR-1i-3OZ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Joke View Controller-->
+        <scene sceneID="ngG-7x-9eO">
+            <objects>
+                <viewController id="lij-hv-oen" customClass="JokeViewController" customModule="ChuckNorrisJokeGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8fn-we-uQA"/>
+                        <viewControllerLayoutGuide type="bottom" id="ktV-y3-oy3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Ey-EL-f4B">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dI8-ua-Bww">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gkV-uc-Ojb">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="402"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c28-FK-Rtg">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="402"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Things are about to get Norris all up in this piece...." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XRE-f9-eI0">
+                                                <rect key="frame" x="300" y="0.0" width="300" height="402"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYc-FG-zx7">
+                                        <rect key="frame" x="0.0" y="402" width="600" height="134"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="38"/>
+                                        <state key="normal" title="Chuck Me"/>
+                                        <connections>
+                                            <action selector="chuckMeButtonPressed:" destination="lij-hv-oen" eventType="touchUpInside" id="Hb8-dP-WAo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qYc-FG-zx7" firstAttribute="height" secondItem="gkV-uc-Ojb" secondAttribute="height" multiplier="1/3" id="BNa-bF-DdV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dI8-ua-Bww" firstAttribute="top" secondItem="8fn-we-uQA" secondAttribute="bottom" id="6RS-rX-bot"/>
+                            <constraint firstItem="dI8-ua-Bww" firstAttribute="leading" secondItem="6Ey-EL-f4B" secondAttribute="leading" id="NOo-ef-jy4"/>
+                            <constraint firstAttribute="trailing" secondItem="dI8-ua-Bww" secondAttribute="trailing" id="PrX-1U-weI"/>
+                            <constraint firstItem="ktV-y3-oy3" firstAttribute="top" secondItem="dI8-ua-Bww" secondAttribute="bottom" id="asS-VW-BPg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ezs-I2-o8M"/>
+                    <connections>
+                        <outlet property="jokeImageView" destination="c28-FK-Rtg" id="kym-8F-jwG"/>
+                        <outlet property="jokeTextView" destination="XRE-f9-eI0" id="sWg-be-IVu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a0w-cd-4FK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="60"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DuF-s5-BZp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5tR-1i-3OZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bNQ-YV-d7L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lij-hv-oen" kind="relationship" relationship="rootViewController" id="i1R-32-RhH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KIM-M2-Pxv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504" y="60"/>
+        </scene>
+    </scenes>
+</document>

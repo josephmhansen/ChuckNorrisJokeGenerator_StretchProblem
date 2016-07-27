@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0074991D407B270083A96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074981D407B270083A96F /* AppDelegate.swift */; };
+		BC00749E1D407B270083A96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC00749C1D407B270083A96F /* Main.storyboard */; };
+		BC0074A01D407B270083A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC00749F1D407B270083A96F /* Assets.xcassets */; };
+		BC0074A31D407B270083A96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0074A11D407B270083A96F /* LaunchScreen.storyboard */; };
+		BC0074AF1D407E8D0083A96F /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074AE1D407E8D0083A96F /* JokeViewController.swift */; };
+		BC0074B11D407F1B0083A96F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B01D407F1B0083A96F /* NetworkController.swift */; };
+		BC0074B31D407F580083A96F /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B21D407F580083A96F /* ImageController.swift */; };
+		BC0074B51D4081010083A96F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B41D4081010083A96F /* Joke.swift */; };
+		BC0074B71D4081A00083A96F /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B61D4081A00083A96F /* JokeController.swift */; };
+		BC0074B91D408C410083A96F /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B81D408C410083A96F /* Meme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0074951D407B270083A96F /* ChuckNorrisJokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0074981D407B270083A96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC00749D1D407B270083A96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC00749F1D407B270083A96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0074A21D407B270083A96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0074A41D407B270083A96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0074AE1D407E8D0083A96F /* JokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		BC0074B01D407F1B0083A96F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		BC0074B21D407F580083A96F /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		BC0074B41D4081010083A96F /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		BC0074B61D4081A00083A96F /* JokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
+		BC0074B81D408C410083A96F /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0074921D407B270083A96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC00748C1D407B270083A96F = {
+			isa = PBXGroup;
+			children = (
+				BC0074971D407B270083A96F /* ChuckNorrisJokeGenerator */,
+				BC0074961D407B270083A96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0074961D407B270083A96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0074951D407B270083A96F /* ChuckNorrisJokeGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0074971D407B270083A96F /* ChuckNorrisJokeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				BC0074AD1D407B530083A96F /* Utilities */,
+				BC0074AC1D407B4D0083A96F /* Model */,
+				BC0074AB1D407B470083A96F /* View */,
+				BC0074AA1D407B3F0083A96F /* Controller */,
+				BC00749C1D407B270083A96F /* Main.storyboard */,
+				BC00749F1D407B270083A96F /* Assets.xcassets */,
+				BC0074A11D407B270083A96F /* LaunchScreen.storyboard */,
+				BC0074A41D407B270083A96F /* Info.plist */,
+			);
+			path = ChuckNorrisJokeGenerator;
+			sourceTree = "<group>";
+		};
+		BC0074AA1D407B3F0083A96F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC0074B01D407F1B0083A96F /* NetworkController.swift */,
+				BC0074B21D407F580083A96F /* ImageController.swift */,
+				BC0074B61D4081A00083A96F /* JokeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BC0074AB1D407B470083A96F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC0074AE1D407E8D0083A96F /* JokeViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BC0074AC1D407B4D0083A96F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC0074B41D4081010083A96F /* Joke.swift */,
+				BC0074B81D408C410083A96F /* Meme.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BC0074AD1D407B530083A96F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC0074981D407B270083A96F /* AppDelegate.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0074941D407B270083A96F /* ChuckNorrisJokeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0074A71D407B270083A96F /* Build configuration list for PBXNativeTarget "ChuckNorrisJokeGenerator" */;
+			buildPhases = (
+				BC0074911D407B270083A96F /* Sources */,
+				BC0074921D407B270083A96F /* Frameworks */,
+				BC0074931D407B270083A96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChuckNorrisJokeGenerator;
+			productName = ChuckNorrisJokeGenerator;
+			productReference = BC0074951D407B270083A96F /* ChuckNorrisJokeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC00748D1D407B270083A96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					BC0074941D407B270083A96F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BC0074901D407B270083A96F /* Build configuration list for PBXProject "ChuckNorrisJokeGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC00748C1D407B270083A96F;
+			productRefGroup = BC0074961D407B270083A96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0074941D407B270083A96F /* ChuckNorrisJokeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0074931D407B270083A96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0074A31D407B270083A96F /* LaunchScreen.storyboard in Resources */,
+				BC0074A01D407B270083A96F /* Assets.xcassets in Resources */,
+				BC00749E1D407B270083A96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0074911D407B270083A96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0074991D407B270083A96F /* AppDelegate.swift in Sources */,
+				BC0074B51D4081010083A96F /* Joke.swift in Sources */,
+				BC0074B91D408C410083A96F /* Meme.swift in Sources */,
+				BC0074AF1D407E8D0083A96F /* JokeViewController.swift in Sources */,
+				BC0074B11D407F1B0083A96F /* NetworkController.swift in Sources */,
+				BC0074B71D4081A00083A96F /* JokeController.swift in Sources */,
+				BC0074B31D407F580083A96F /* ImageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC00749C1D407B270083A96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC00749D1D407B270083A96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0074A11D407B270083A96F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0074A21D407B270083A96F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0074A51D407B270083A96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC0074A61D407B270083A96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0074A81D407B270083A96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChuckNorrisJokeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegoa3d.ChuckNorrisJokeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC0074A91D407B270083A96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChuckNorrisJokeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegoa3d.ChuckNorrisJokeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0074901D407B270083A96F /* Build configuration list for PBXProject "ChuckNorrisJokeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0074A51D407B270083A96F /* Debug */,
+				BC0074A61D407B270083A96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0074A71D407B270083A96F /* Build configuration list for PBXNativeTarget "ChuckNorrisJokeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0074A81D407B270083A96F /* Debug */,
+				BC0074A91D407B270083A96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC00748D1D407B270083A96F /* Project object */;
+}
