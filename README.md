@@ -2,7 +2,9 @@
 **Chuck Norris Joke Generator**
 ---------------------------
 
+![mainscreen](https://cloud.githubusercontent.com/assets/6709516/17279302/e1c05d2a-572d-11e6-8017-7d87151b5251.png)
 
+![jokeandblackdiamond](https://cloud.githubusercontent.com/assets/6709516/17279301/e1be03ea-572d-11e6-809e-8b8a58de5955.png)
 
 Part 1. 
 
