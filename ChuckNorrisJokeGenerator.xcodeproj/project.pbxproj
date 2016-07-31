@@ -17,6 +17,8 @@
 		BC0074B51D4081010083A96F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B41D4081010083A96F /* Joke.swift */; };
 		BC0074B71D4081A00083A96F /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B61D4081A00083A96F /* JokeController.swift */; };
 		BC0074B91D408C410083A96F /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B81D408C410083A96F /* Meme.swift */; };
+		BCA397EF1D4E83080094F914 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA397EE1D4E83080094F914 /* Randomizer.swift */; };
+		BCA397F11D4E925E0094F914 /* MemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA397F01D4E925E0094F914 /* MemeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		BC0074B41D4081010083A96F /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		BC0074B61D4081A00083A96F /* JokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
 		BC0074B81D408C410083A96F /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		BCA397EE1D4E83080094F914 /* Randomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
+		BCA397F01D4E925E0094F914 /* MemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				BC0074B01D407F1B0083A96F /* NetworkController.swift */,
 				BC0074B21D407F580083A96F /* ImageController.swift */,
 				BC0074B61D4081A00083A96F /* JokeController.swift */,
+				BCA397F01D4E925E0094F914 /* MemeController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				BC0074981D407B270083A96F /* AppDelegate.swift */,
+				BCA397EE1D4E83080094F914 /* Randomizer.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				BC0074AF1D407E8D0083A96F /* JokeViewController.swift in Sources */,
 				BC0074B11D407F1B0083A96F /* NetworkController.swift in Sources */,
 				BC0074B71D4081A00083A96F /* JokeController.swift in Sources */,
+				BCA397EF1D4E83080094F914 /* Randomizer.swift in Sources */,
+				BCA397F11D4E925E0094F914 /* MemeController.swift in Sources */,
 				BC0074B31D407F580083A96F /* ImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +346,7 @@
 				BC0074A91D407B270083A96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
