@@ -24,10 +24,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gkV-uc-Ojb">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="402"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c28-FK-Rtg">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c28-FK-Rtg">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="201"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Things are about to get Norris all up in this piece...." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XRE-f9-eI0">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Things are about to get Norris all up in this piece...." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XRE-f9-eI0">
                                                 <rect key="frame" x="0.0" y="201" width="600" height="201"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="14"/>
