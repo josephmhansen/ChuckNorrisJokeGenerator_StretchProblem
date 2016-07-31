@@ -6,7 +6,7 @@
 ![jokeandblackdiamond](https://cloud.githubusercontent.com/assets/6709516/17279301/e1be03ea-572d-11e6-809e-8b8a58de5955.png)
 
 Part 1. 
-
+- Clone/Fork a copy of this project and start from the **initial commit** branch
 - Review the following api:
 https://api.chucknorris.io
 
