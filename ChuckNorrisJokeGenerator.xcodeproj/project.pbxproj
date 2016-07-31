@@ -12,13 +12,6 @@
 		BC0074A01D407B270083A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC00749F1D407B270083A96F /* Assets.xcassets */; };
 		BC0074A31D407B270083A96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0074A11D407B270083A96F /* LaunchScreen.storyboard */; };
 		BC0074AF1D407E8D0083A96F /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074AE1D407E8D0083A96F /* JokeViewController.swift */; };
-		BC0074B11D407F1B0083A96F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B01D407F1B0083A96F /* NetworkController.swift */; };
-		BC0074B31D407F580083A96F /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B21D407F580083A96F /* ImageController.swift */; };
-		BC0074B51D4081010083A96F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B41D4081010083A96F /* Joke.swift */; };
-		BC0074B71D4081A00083A96F /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B61D4081A00083A96F /* JokeController.swift */; };
-		BC0074B91D408C410083A96F /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074B81D408C410083A96F /* Meme.swift */; };
-		BCA397EF1D4E83080094F914 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA397EE1D4E83080094F914 /* Randomizer.swift */; };
-		BCA397F11D4E925E0094F914 /* MemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA397F01D4E925E0094F914 /* MemeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +22,6 @@
 		BC0074A21D407B270083A96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0074A41D407B270083A96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0074AE1D407E8D0083A96F /* JokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
-		BC0074B01D407F1B0083A96F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
-		BC0074B21D407F580083A96F /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
-		BC0074B41D4081010083A96F /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
-		BC0074B61D4081A00083A96F /* JokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
-		BC0074B81D408C410083A96F /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
-		BCA397EE1D4E83080094F914 /* Randomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
-		BCA397F01D4E925E0094F914 /* MemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +69,6 @@
 		BC0074AA1D407B3F0083A96F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BC0074B01D407F1B0083A96F /* NetworkController.swift */,
-				BC0074B21D407F580083A96F /* ImageController.swift */,
-				BC0074B61D4081A00083A96F /* JokeController.swift */,
-				BCA397F01D4E925E0094F914 /* MemeController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -102,8 +84,6 @@
 		BC0074AC1D407B4D0083A96F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BC0074B41D4081010083A96F /* Joke.swift */,
-				BC0074B81D408C410083A96F /* Meme.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -112,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				BC0074981D407B270083A96F /* AppDelegate.swift */,
-				BCA397EE1D4E83080094F914 /* Randomizer.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -189,14 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC0074991D407B270083A96F /* AppDelegate.swift in Sources */,
-				BC0074B51D4081010083A96F /* Joke.swift in Sources */,
-				BC0074B91D408C410083A96F /* Meme.swift in Sources */,
 				BC0074AF1D407E8D0083A96F /* JokeViewController.swift in Sources */,
-				BC0074B11D407F1B0083A96F /* NetworkController.swift in Sources */,
-				BC0074B71D4081A00083A96F /* JokeController.swift in Sources */,
-				BCA397EF1D4E83080094F914 /* Randomizer.swift in Sources */,
-				BCA397F11D4E925E0094F914 /* MemeController.swift in Sources */,
-				BC0074B31D407F580083A96F /* ImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
