@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723658A81D524081003AEBFF /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723658A71D524081003AEBFF /* Joke.swift */; };
+		723658AA1D52408E003AEBFF /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723658A91D52408E003AEBFF /* JokeController.swift */; };
+		723658AC1D52472F003AEBFF /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723658AB1D52472F003AEBFF /* NetworkController.swift */; };
 		BC0074991D407B270083A96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0074981D407B270083A96F /* AppDelegate.swift */; };
 		BC00749E1D407B270083A96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC00749C1D407B270083A96F /* Main.storyboard */; };
 		BC0074A01D407B270083A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC00749F1D407B270083A96F /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		723658A71D524081003AEBFF /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		723658A91D52408E003AEBFF /* JokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
+		723658AB1D52472F003AEBFF /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		BC0074951D407B270083A96F /* ChuckNorrisJokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0074981D407B270083A96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC00749D1D407B270083A96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +75,8 @@
 		BC0074AA1D407B3F0083A96F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				723658A91D52408E003AEBFF /* JokeController.swift */,
+				723658AB1D52472F003AEBFF /* NetworkController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		BC0074AC1D407B4D0083A96F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				723658A71D524081003AEBFF /* Joke.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -167,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723658AC1D52472F003AEBFF /* NetworkController.swift in Sources */,
+				723658AA1D52408E003AEBFF /* JokeController.swift in Sources */,
 				BC0074991D407B270083A96F /* AppDelegate.swift in Sources */,
 				BC0074AF1D407E8D0083A96F /* JokeViewController.swift in Sources */,
+				723658A81D524081003AEBFF /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
